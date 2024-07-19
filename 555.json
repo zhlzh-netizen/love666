@@ -1,10 +1,24 @@
-{//"spider":"https://share.nite07.com/api/v3/file/source/18596/0901tvbox.jar?sign=bceG3edJT2NJlsLRxNcO6Cr6zgwwUfs6svpViF3RWfI%3D%3A0",
-"spider":"https://download.kstore.space/download/2883/PY/1031.jar",
-//"spider":"https://download.kstore.space/download/2883/PY/1031xBPQ.jar",
-"wallpaper":"https://api.yimian.xyz/img?type=wallpaper",
-//"wallpaper": "http://www.kf666888.cn/api/tvbox/img",
-"lives":[{"group":"redirect","channels":[{"name":"live","urls":["proxy://do=live&type=txt&ext=http://gg.gg/cctvgg"]}]}],
-  "warningText": "TV",
+{
+  "spider": "",
+  "wallpaper": "http://饭太硬.top/深色壁纸/api/api.php",
+  "lives": [
+       /* {
+      "name": "live",
+      "type": 0,
+      "url": "https://gitee.com/zhao_li_zhu/live666/raw/master/iptv6.txt",
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },*/
+    {
+      "name": "IPv4",
+      "type": 0,
+      "url": "http://43.242.202.173:25253/tvbox/tvlive.txt",
+      "ua": "okhttp/3.12.13",
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    }
+     
+  ],
 "sites":[{        "key":"影视仓",
          "name":"魔改交流",
 "type":3,"api":"csp_AppMr","searchable":1,"quickSearch":1,"filterable":1,
